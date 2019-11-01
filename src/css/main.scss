@@ -1,0 +1,11 @@
+body{
+	display: flex;
+}
+.orange{ width: 90px; height: 90px; background: orange;
+	> .blue{ width: 60px; height: 60px; background: blue;
+		> .yellow{ 
+			width: 30px; height: 30px; background: yellow;
+		}
+	}
+}
+
